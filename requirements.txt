@@ -1,0 +1,2 @@
+# This plugin only uses the Python standard library and AstrBot's bundled dependencies.
+# No extra packages are required.

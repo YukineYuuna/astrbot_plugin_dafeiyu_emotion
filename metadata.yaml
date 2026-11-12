@@ -1,0 +1,8 @@
+name: astrbot_plugin_dafeiyu_emotion
+display_name: 情感迭代
+desc: 基于已有记忆建立情感档案，在主人私聊中注入当前情感状态，并按小步反思更新好感、信任、安全感与心情；只影响表达，不改人格主体。
+help: 私聊主人可用 /情感 查看、/情感原因 查看最近触发、/情感重置 重置状态。需要先配置 owner_qq。
+version: 0.1.0
+author: YukineYuuna
+repo: https://github.com/YukineYuuna/astrbot_plugin_dafeiyu_emotion
+astrbot_version: ">=4.29.0"

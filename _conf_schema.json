@@ -1,0 +1,22 @@
+{
+  "owner_qq": {
+    "type": "string",
+    "description": "唯一允许训练和查看情感的 QQ 号；必须填，其他人私聊不会注入或更新状态",
+    "default": ""
+  },
+  "enabled": {
+    "type": "bool",
+    "description": "是否启用情感状态注入和聊天反思",
+    "default": true
+  },
+  "reflect_every": {
+    "type": "int",
+    "description": "每多少轮主人私聊回复做一次后台情感反思；建议 6-10，太小会过于敏感",
+    "default": 6
+  },
+  "livingmemory_db": {
+    "type": "string",
+    "description": "可选的 livingmemory 数据库路径；留空则使用 AstrBot 数据目录下 plugin_data/astrbot_plugin_livingmemory/livingmemory.db",
+    "default": ""
+  }
+}

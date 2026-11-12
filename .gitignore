@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.pyo
+state.json
+config.json
+config.local.json
+*.log
+.env
